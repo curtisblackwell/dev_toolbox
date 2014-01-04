@@ -1,6 +1,8 @@
 # Dev Toolbox
 Dev Toolbox is a [Statamic](http://statamic.com) add-on that provides utilities to speed up development.
 
+**Its methods aren't intended to be used in production.**
+
 ## Contributing
 I'd love for other developers to contribute so we can all help each other be more efficient.
 
