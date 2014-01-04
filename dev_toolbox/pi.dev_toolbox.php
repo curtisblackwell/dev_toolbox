@@ -11,6 +11,14 @@ class Plugin_dev_toolbox extends Plugin {
     'author_url'  => 'https://github.com/curtisblackwell/dev_toolbox'
   );
 
+  /**
+   * Generates a table of keys and values of either $_POST or $_GET.
+   * @author Curtis Blackwell <iam@curtisblackwell.com>
+   *
+   * @param  string method Denotes whether to dump $_POST or $_GET vars.
+   * @param  string table_class Space separated list of classes to apply to the generated table.
+   * @return string Table markup
+   */
   public function get_post_dump() {
     $method      = $this->fetch('method',      'post'                      );
     $table_class = $this->fetch('table_class', NULL,    FALSE, FALSE, FALSE);
